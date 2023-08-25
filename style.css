@@ -22,9 +22,6 @@ body{
     background-color: rgb(241, 246, 252);
 }
 
-#feature{
-    background-color: #4d98e3;
-}
 
 
 .btn-cta {
@@ -67,4 +64,18 @@ body{
     -webkit-background-clip: text; /* For Safari */
     color: transparent; /* Make the text transparent to show the gradient */
     border-bottom: 3px solid #4d98e3;
+}
+
+.card-features{
+    background-color: #c4d6e8;
+    color: #3366a0;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.card-features:hover{
+    background-color: #3366a0;
+    color: #fff;
+    border-radius: 8px;
 }
