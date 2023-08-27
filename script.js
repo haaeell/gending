@@ -66,4 +66,23 @@
           });
         });
       });
+      document.addEventListener("DOMContentLoaded", function () {
+        const targetNumber = 2023; // Ganti dengan angka yang Anda inginkan
+        const counterElement = document.getElementById("counter");
       
+        new Waypoint({
+          element: counterElement,
+          handler: function () {
+            anime({
+              targets: counterElement,
+              innerHTML: [0, targetNumber],
+              duration: 1500,
+              easing: "linear",
+              round: 1, // Bulatkan angka ke satu desimal
+            });
+            this.destroy(); // Hentikan pengamatan setelah animasi selesai
+          },
+          offset: "bottom-in-view",
+        });
+      });
+            

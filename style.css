@@ -14,9 +14,8 @@ body{
     transition: background-color 0.3s, backdrop-filter 0.3s;
   }
 
-  .transparent {
+  .transparent , footer{
     background: linear-gradient(to right, #4d98e3, #3366a0);
-    color: black;
   }
 
   .navbar {
@@ -188,6 +187,7 @@ body{
     bottom: 20px;
     right: 20px;
     background-color: #3366a0;
+    border: 1px solid #fff;
     color: white;
     width: 40px;
     height: 40px;
